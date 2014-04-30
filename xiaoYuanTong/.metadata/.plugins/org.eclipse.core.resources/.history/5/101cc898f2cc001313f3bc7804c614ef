@@ -1,0 +1,47 @@
+package com.xyt.test;
+import java.util.List;
+import java.util.UUID;
+
+import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.xyt.model.Grouptbl;
+import com.xyt.model.Usertbl;
+import com.xyt.pageModel.Group;
+import com.xyt.service.GroupServiceI;
+import com.xyt.service.UserService;
+import com.xyt.service.impl.GroupServiceImpl;
+
+
+
+public class TestHibernate {
+	
+
+	
+	
+	@Test
+	public void test(){
+		ApplicationContext ac = new ClassPathXmlApplicationContext(new String[]{"classpath:spring.xml","applicationContext.xml"});
+	//	ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
+	/*	UserService userService = (UserService)ac.getBean("userService");
+		Usertbl t = new Usertbl();
+	   t.setUserId(UUID.randomUUID().toString());
+	   t.setName("g");
+		
+		userService.save(t);*/
+		
+		
+		GroupServiceI groupservice = (GroupServiceI)ac.getBean("groupService");
+		List<Grouptbl>	ll =groupservice.getGroupService("1");
+		
+		logger.ll.get(0).getGroupName();
+		ll.get(1).print();
+		ll.get(2).print();
+		
+		
+	}
+	
+
+
+}

@@ -1,0 +1,11 @@
+package com.xyt.service;
+
+import java.util.List;
+
+import com.xyt.model.Lostandfindtbl;
+
+public interface FindAndLostServiceI {
+	
+	public List<Lostandfindtbl> getFindAndLostService(String userid); 
+	
+}

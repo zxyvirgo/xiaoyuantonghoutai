@@ -1,0 +1,21 @@
+package com.xyt.service.impl;
+
+import java.util.List;
+
+import com.xyt.dao.BaseDaoI;
+import com.xyt.pageModel.FindLostAll;
+import com.xyt.service.FindLostAllServiceI;
+
+/*
+ * 想测试一下，如果读取的不是数据库里面的原始实体，是自己修改拼接过的，效果会一样吗？
+ */
+public class FindLostAllServiceImpl implements FindLostAllServiceI {
+	private BaseDaoI<FindLostAll> findlostDao;
+	
+	public List<FindLostAll> getFindAndLostService() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+}

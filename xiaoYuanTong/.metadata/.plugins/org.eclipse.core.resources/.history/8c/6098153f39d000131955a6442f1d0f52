@@ -1,0 +1,19 @@
+package com.xyt.service.impl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.xyt.model.Usertbl;
+import com.xyt.service.TdrServiceI;
+
+@Service("tdrService")
+public class TdrServiceImpl implements TdrServiceI {
+
+	@Override
+	public List<Usertbl> getTdrService(String tdrid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

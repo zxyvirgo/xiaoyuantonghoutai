@@ -1,0 +1,51 @@
+package com.xyt.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.xyt.dao.BaseDaoI;
+import com.xyt.pageModel.FindLostAll;
+import com.xyt.service.FindLostAllServiceI;
+
+/*
+ * 想测试一下，如果读取的不是数据库里面的原始实体，是自己修改拼接过的，效果会一样吗？
+ */
+@Service("findallService")
+public class FindLostAllServiceImpl implements FindLostAllServiceI {
+	private BaseDaoI<FindLostAll> findallDao;
+	
+	
+	
+	public BaseDaoI<FindLostAll> getFindlostDao() {
+		return findallDao;
+	}
+
+
+	@Autowired
+	public void setFindlostDao(BaseDaoI<FindLostAll> findallDao) {
+		this.findallDao = findallDao;
+	}
+
+
+	@Transactional
+	public List<FindLostAll> getFindAndLostService() {
+		// TODO Auto-generated method stub
+		
+		String hql = null;
+		hql="SELECT grouptbl.* FROM grouptbl,usergrouptbl WHERE usergrouptbl.groupid = grouptbl.groupId and usergrouptbl.userid = ";
+	/*	Map<String, Object> params = new HashMap<String, Object>();
+		params.put("groupId", "1");
+*/
+		//已经测试过，能够查找到数据库中的数据
+		List<FindLostAll> gt = (List<FindLostAll>) findallDao.findallsql(hql);
+		//groupDao.toString();
+		//List<Grouptbl> gt = (List<Grouptbl>) groupDao.get("from Grouptbl t");
+	
+		return gt;
+	}
+
+
+}

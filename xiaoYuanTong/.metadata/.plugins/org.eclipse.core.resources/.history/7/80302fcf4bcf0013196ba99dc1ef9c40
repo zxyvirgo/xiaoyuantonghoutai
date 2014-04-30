@@ -1,0 +1,54 @@
+package com.xyt.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.xyt.dao.BaseDaoI;
+import com.xyt.model.Lostandfindtbl;
+import com.xyt.service.MyFindLostServiceI;
+
+public class MyFindLostServiceImpl implements MyFindLostServiceI {
+	
+	private BaseDaoI<Lostandfindtbl> lostandfindDao;
+	
+	
+
+	public BaseDaoI<Lostandfindtbl> getLostandfindDao() {
+		return lostandfindDao;
+	}
+
+
+	@Autowired
+	public void setLostandfindDao(BaseDaoI<Lostandfindtbl> lostandfindDao) {
+		this.lostandfindDao = lostandfindDao;
+	}
+
+
+
+	@Transactional
+	public List<Lostandfindtbl> getMyFindLostService(String userid) {
+		// TODO Auto-generated method stub
+		
+		String hql = null;
+		
+		hql="SELECT lostandfindtbl.* from lostandfindtbl where lostandfindtbl.userId ="+userid;
+	/*	Map<String, Object> params = new HashMap<String, Object>();
+		params.put("groupId", "1");
+*/
+		//已经测试过，能够查找到数据库中的数据
+		List<Lostandfindtbl> gt = (List<Lostandfindtbl>) lostandfindDao.findandlostsql(hql);
+		return gt;
+	}
+
+
+	@Override
+	public boolean changeState(String findandlostid) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+	
+
+}

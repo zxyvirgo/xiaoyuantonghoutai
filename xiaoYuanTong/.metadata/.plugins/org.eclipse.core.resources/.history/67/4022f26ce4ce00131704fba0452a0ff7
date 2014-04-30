@@ -1,0 +1,19 @@
+package com.xyt.service.impl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.xyt.model.Lostandfindtbl;
+import com.xyt.service.FindAndLostServiceI;
+
+@Service("findandlostService")
+public class FindAndLostServiceImpl implements FindAndLostServiceI {
+
+	@Override
+	public List<Lostandfindtbl> getFindAndLostService(String userid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

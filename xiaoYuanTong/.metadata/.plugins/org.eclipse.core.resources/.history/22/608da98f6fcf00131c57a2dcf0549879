@@ -1,0 +1,7 @@
+package com.xyt.service.impl;
+
+import com.xyt.service.DynamicServiceI;
+
+public class DynamicServiceImpl implements DynamicServiceI {
+
+}

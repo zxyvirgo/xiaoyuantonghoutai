@@ -1,0 +1,16 @@
+package com.xyt.pageModel;
+
+import java.sql.Timestamp;
+
+import com.xyt.model.Usertbl;
+
+public class FindLostAll {
+	
+	private String name;
+	private String flag;  //根据标记可以判断是寻物还是招领
+	private String state; //是否被取走的状态
+	private String category; //物品类别
+	private String content; //消息内容
+	private Timestamp createTime;  //创建时间
+
+}

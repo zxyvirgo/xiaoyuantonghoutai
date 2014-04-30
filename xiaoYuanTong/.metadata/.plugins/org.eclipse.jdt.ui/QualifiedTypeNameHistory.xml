@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="com.xyt.service.UserService"/>
+<fullyQualifiedTypeName name="com.xyt.service.impl.GroupServiceImpl"/>
+<fullyQualifiedTypeName name="org.hibernate.annotations.common.util.impl.Log_.logger"/>
+<fullyQualifiedTypeName name="com.xyt.service.GroupServiceI"/>
+<fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
+<fullyQualifiedTypeName name="com.xyt.pageModel.Group"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="com.xyt.pageModel.FriendInfo"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.xyt.model.Grouptbl"/>
+<fullyQualifiedTypeName name="com.xyt.service.MyFindLostServiceI"/>
+<fullyQualifiedTypeName name="com.xyt.pageModel.FindLostAll"/>
+<fullyQualifiedTypeName name="com.xyt.service.FindAndLostServiceI"/>
+<fullyQualifiedTypeName name="com.xyt.model.Lostandfindtbl"/>
+<fullyQualifiedTypeName name="com.xyt.pageModel.Message"/>
+<fullyQualifiedTypeName name="com.xyt.model.Messagetbl"/>
+<fullyQualifiedTypeName name="com.xyt.service.DynamicServiceI"/>
+<fullyQualifiedTypeName name="com.xyt.model.Usertbl"/>
+<fullyQualifiedTypeName name="org.springframework.beans.BeanUtils"/>
+<fullyQualifiedTypeName name="com.xyt.service.TdrServiceI"/>
+<fullyQualifiedTypeName name="org.apache.struts2.ServletActionContext"/>
+<fullyQualifiedTypeName name="java.util.UUID"/>
+<fullyQualifiedTypeName name="com.xyt.pageModel.FindAndLost"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+</qualifiedTypeNameHistroy>

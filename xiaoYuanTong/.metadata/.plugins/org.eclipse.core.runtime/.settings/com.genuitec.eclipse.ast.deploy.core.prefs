@@ -1,0 +1,14 @@
+#Wed Apr 30 22:37:26 CST 2014
+tomcat6Server.xiaoyuantong.deployIsOverProject=false
+tomcat6Server.xiaoyuantong.shouldOverwrite=false
+tomcat6Server.xiaoyuantong.IEARProjectName=
+tomcat6Server.xiaoyuantong.isExploded=true
+tomcat6Server.xiaoyuantong.deploymentPath=H\:\\andriod418\\apache-tomcat-6.0.39\\webapps\\xiaoyuantong
+tomcat6Server.xiaoyuantong.contextRoot=/xiaoyuantong
+tomcat6Server.xiaoyuantong.isUptoDate=true
+tomcat6Server.xiaoyuantong.altContextRoot=
+tomcat6Server.xiaoyuantong.shouldBackup=false
+tomcat6Server.xiaoyuantong.isDeployed=true
+tomcat6Server.xiaoyuantong.noFileCopy=false
+eclipse.preferences.version=1
+tomcat6Server.xiaoyuantong.type=WebDeployment

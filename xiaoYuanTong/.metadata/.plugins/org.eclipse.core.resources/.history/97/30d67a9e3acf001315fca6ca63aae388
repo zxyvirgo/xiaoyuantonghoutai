@@ -1,0 +1,11 @@
+package com.xyt.service;
+
+import java.util.List;
+
+import com.xyt.pageModel.FindLostAll;
+
+public interface FindLostAllServiceI {
+	
+	public List<FindLostAll> getFindAndLostService(String userid);
+
+}

@@ -1,0 +1,21 @@
+package com.xyt.service.impl;
+
+import java.util.List;
+
+import com.xyt.dao.BaseDaoI;
+import com.xyt.model.Lostandfindtbl;
+import com.xyt.pageModel.FindLostAll;
+import com.xyt.service.FindAndLostServiceI;
+
+public class FindLostAllServiceI implements FindAndLostServiceI {
+	
+	
+
+	private BaseDaoI<FindLostAll> findlostDao;
+	
+	public List<FindLostAll> getFindAndLostService(String userid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

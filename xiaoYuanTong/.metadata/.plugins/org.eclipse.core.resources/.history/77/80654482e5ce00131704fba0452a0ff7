@@ -1,0 +1,39 @@
+package com.xyt.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.xyt.dao.BaseDaoI;
+import com.xyt.model.Grouptbl;
+import com.xyt.model.Lostandfindtbl;
+import com.xyt.service.FindAndLostServiceI;
+
+@Service("findandlostService")
+public class FindAndLostServiceImpl implements FindAndLostServiceI {
+	
+	private BaseDaoI<Lostandfindtbl> lostandfindDao;
+	
+	
+
+	public BaseDaoI<Lostandfindtbl> getLostandfindDao() {
+		return lostandfindDao;
+	}
+
+
+	@Autowired
+	public void setLostandfindDao(BaseDaoI<Lostandfindtbl> lostandfindDao) {
+		this.lostandfindDao = lostandfindDao;
+	}
+
+
+
+	@Transactional
+	public List<Lostandfindtbl> getFindAndLostService(String userid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

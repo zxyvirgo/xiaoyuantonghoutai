@@ -1,0 +1,10 @@
+package com.xyt.service.impl;
+
+import org.springframework.stereotype.Service;
+
+import com.xyt.service.DynamicServiceI;
+
+@Service("dynamicService")
+public class DynamicServiceImpl implements DynamicServiceI {
+
+}

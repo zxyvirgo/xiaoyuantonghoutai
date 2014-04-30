@@ -1,0 +1,9 @@
+#Wed Apr 23 16:05:10 CST 2014
+SERVER_ENABLEMENT=true
+LIBRARY_PATH="D\:\\myeclipse10\\Common\\binary\\com.sun.java.jdk.win32.x86_64_1.6.0.013\\bin;H\:\\andriod418\\apache-tomcat-6.0.39\\bin"
+eclipse.preferences.version=1
+JDK_HOME=D\:\\myeclipse10\\Common\\binary\\com.sun.java.jdk.win32.x86_64_1.6.0.013
+TOMCAT_BASE=H\:\\andriod418\\apache-tomcat-6.0.39
+ENDORSED_DIRS="H\:\\andriod418\\apache-tomcat-6.0.39/common/endorsed"
+TOMCAT_HOME=H\:\\andriod418\\apache-tomcat-6.0.39
+TOMCAT_TEMP=H\:\\andriod418\\apache-tomcat-6.0.39\\temp

@@ -1,0 +1,16 @@
+package com.xyt.service.impl;
+
+import java.util.List;
+
+import com.xyt.model.Usertbl;
+import com.xyt.service.TdrServiceI;
+
+public class TdrServiceImpl implements TdrServiceI {
+
+	@Override
+	public List<Usertbl> getTdrService(String tdrid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

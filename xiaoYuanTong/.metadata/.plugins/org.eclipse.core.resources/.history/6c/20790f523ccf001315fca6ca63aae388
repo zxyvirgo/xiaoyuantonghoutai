@@ -1,0 +1,5 @@
+package com.xyt.service;
+
+public class MyFindLostServiceI {
+
+}
